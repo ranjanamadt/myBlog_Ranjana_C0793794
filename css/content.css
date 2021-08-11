@@ -1,3 +1,8 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+  }
+
 body {
     width: 80%;
     margin-left: auto;
@@ -34,5 +39,6 @@ aside{
 }
 section p{
     margin: 0px;
+    font-family: myFirstFont;
    
 }
