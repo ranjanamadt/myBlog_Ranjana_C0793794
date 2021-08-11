@@ -113,11 +113,17 @@ margin-left: 1em;
   background-color:green;
   text-decoration: none;
 }
+section img{
+  float: left;
+  margin-right: 1em;
 
+  height: 90px;
+  width: 90px;
+
+}
 section p{
     margin: 0px;
-   
-
+  
 }
 
 
@@ -194,6 +200,7 @@ main a {
 section h4{
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: #C30507;
+  clear: left;
 }
 section p{
   font-size: .9em;
