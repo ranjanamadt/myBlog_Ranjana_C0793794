@@ -28,7 +28,7 @@ header h1{
     font-family: Papyrus, fantasy;
     font-weight: bolder;
     margin: 0px;
-    font-size: 3.5em;
+    font-size: 4em;
 }
 header h6{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -61,8 +61,6 @@ main {
 main div{
     display: flex;
     flex-direction: row;
-    
-
 }
 
 section{
@@ -227,7 +225,8 @@ text-align: center;
 /* style for the th and tr */
 th, tr, td {
     border: 0.1em solid #000;
-    padding: 1em;
+    padding: .8em;
+    font-size: 1em;
 }
 
 /* style for th */
@@ -238,7 +237,7 @@ th {
 
 /* style for the caption of the table */
 caption {
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-weight: bold;
     padding-bottom: 0.5em;
 }

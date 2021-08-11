@@ -44,8 +44,19 @@ footer {
     text-align: center;
     clear: both;
     margin-top: 2em;
+    color: #000;
 }
 
+main {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    padding: 1em;
+    clear: both;
+    margin-top: 5em;
+    background-color: white;
+    border-radius: 2em 0 2em 0;
+    opacity: 0.85;
+}
 
 main div{
     display: flex;
@@ -139,16 +150,6 @@ nav li a {
 }
 
 
-main {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1em;
-    padding: 1em;
-    clear: both;
-    margin-top: 5em;
-    background-color: white;
-    border-radius: 2em 0 2em 0;
-    opacity: 0.85;
-}
 
 footer {
     font-size: .7em;
