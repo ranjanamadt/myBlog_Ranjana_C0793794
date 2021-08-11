@@ -95,7 +95,8 @@ aside{
     display: flex;
     height: fit-content;
     flex-direction: column;
-margin-top: 5em;
+margin-top: 2em;
+margin-left: 1em;
     align-items:center;
     background-color:green;
 }
@@ -112,9 +113,11 @@ margin-top: 5em;
   background-color:green;
   text-decoration: none;
 }
+
 section p{
     margin: 0px;
    
+
 }
 
 
@@ -190,9 +193,11 @@ main a {
 
 section h4{
   font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #C30507;
 }
 section p{
   font-size: .9em;
+  text-align: justify;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 

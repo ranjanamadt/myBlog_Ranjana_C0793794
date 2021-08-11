@@ -15,16 +15,43 @@
             <h6>The Greatness of culture can be found in its festivals</h6>
         </header>
 
-        
-            <ul id ="nav">
-                <li class="navli"><a href="index.html">Home </a></li>
-                <li class="navli"><a href="references.html">References</a></li>
-                <li class="navli"><a href="contact.html">Contact Us </a></li>
-            </ul>
+
+        <ul id="nav">
+            <li class="navli"><a href="index.html">Home </a></li>
+            <li class="navli"><a href="references.html">References</a></li>
+            <li class="navli"><a href="contact.html">Contact Us </a></li>
+        </ul>
 
         <!-- the area used for the content of the page -->
         <main>
+          
+            <form >
+                <h4>Please fill the form</h4>
+                <fieldset>
+                  
 
+                    <label for="fName">First Name:</label>
+                    <input type="text" name="fName" id="fName">
+
+                    <label for="lName">Last Name:</label>
+                    <input type="text" name="lName" id="lName">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email">
+
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                      >
+
+                    <label for="question">Want to ask about?</label>
+                    <textarea name="question" id="question" cols="25" rows="3"></textarea>
+
+                    <div id="form-btn">
+                        <input type="submit" id="submit" class="btn" value="Submit" onclick="tyAlert()">
+                        <input type="reset" id="reset" class="btn" value="Reset">
+                    </div>
+                </fieldset>
+            </form>
             <p>Phone Number</p>
             <p><a href="tel:8283963284">+91-8283963284</a>
 

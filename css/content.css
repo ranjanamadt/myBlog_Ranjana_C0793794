@@ -99,8 +99,20 @@ aside h4{
     background-color:green;
     text-decoration: none;
 }
-section p{
-    margin: 0px;
+section h4{
+   color: #C30507;
+   text-align: center;
+   margin: .5em;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-weight: bold; 
+   font-size: 1.5em;
+   text-decoration: underline;
+}
+section article{
+    font-size: 1em;
+    column-gap: 1em;
+    row-gap: 2em;
+    text-align: justify;
     font-family: Georgia, 'Times New Roman', Times, serif; 
 }
 #nav {
@@ -149,6 +161,55 @@ footer {
     clear: both;
     margin-top: 2em;
     color: #000;
+}
+
+
+
+/* style for input, textearea etc */
+input,  textarea {
+    width: 100%;
+    padding: 0.8em 0.8em;
+    margin: 0.8em 0;
+    display: inline-block;
+    border: 0.1em solid #000;
+    box-sizing: border-box;
+}
+.gender {
+    display: flex;
+}
+
+fieldset section {
+    padding-bottom: 0;
+    text-align: center;
+}
+
+form {
+   
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+  
+    
+}
+
+form fieldset {
+    padding: 1em;
+} 
+#form-btn input {
+    display: inline-block;
+    margin-right: 0.5em;
+    padding: 0.5em 1em;
+    background-color: #C30507;
+   
+    color: #fff;
+    border: none;
+}
+
+form h4{
+    text-align: center;
+    color: #C30507;
+
 }
 
 
