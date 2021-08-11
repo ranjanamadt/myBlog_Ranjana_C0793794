@@ -1,10 +1,7 @@
 :root{
     --my-bg-color:#FDAE4C
 }
-@font-face{
-    font-family: myFirstFont;
-    src: url(sansation_light.woff);
-}
+
 #container {
     width: 100%;
     margin-left: auto;
@@ -31,10 +28,10 @@ header h1{
     font-family: Papyrus, fantasy;
     font-weight: bolder;
     margin: 0px;
-    font-size: 4em;
+    font-size: 3.5em;
 }
 header h6{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     margin: 0px;
     align-items: flex-end;
@@ -47,15 +44,18 @@ footer {
     text-align: center;
     clear: both;
     margin-top: 2em;
+    color: #000;
 }
+
 main {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1em;
-    margin-top: 0.5em;
     padding: 1em;
-    background-color: whitesmoke;
-    border-radius: 1em 0 1em 0;
-    opacity: 0.75;
+    clear: both;
+    margin-top: 5em;
+    background-color: white;
+    border-radius: 2em 0 2em 0;
+    opacity: 0.85;
 }
 
 main div{
@@ -120,23 +120,8 @@ nav li a {
     text-decoration: none;
 }
 
-main {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1em;
-    padding: 1em;
-    clear: both;
-    margin-top: 5em;
-    background-color: #ffffff;
-    border-radius: 2em 0 2em 0;
-    opacity: 0.85;
-}
 
-footer {
-    font-size: .7em;
-    text-align: center;
-    margin-top: 2em;
-    color: #fff;
-}
+
 
 /* style for the links inside main */
 main a {

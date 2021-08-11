@@ -1,10 +1,7 @@
 :root{
     --my-bg-color:#FDAE4C
 }
-@font-face{
-    font-family: myFirstFont;
-    src: url(sansation_light.woff);
-}
+
 #container {
     width: 100%;
     margin-left: auto;
@@ -28,13 +25,13 @@ header {
   
 }
 header h1{
-     font-family: Papyrus, fantasy;
+    font-family: Papyrus, fantasy;
     font-weight: bolder;
     margin: 0px;
     font-size: 4em;
 }
 header h6{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     margin: 0px;
     align-items: flex-end;
@@ -48,15 +45,7 @@ footer {
     clear: both;
     margin-top: 2em;
 }
-main {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1em;
-    margin-top: 0.5em;
-    padding: 1em;
-    background-color: whitesmoke;
-    border-radius: 2em 0 2em 0;
-    opacity: 0.75;
-}
+
 
 main div{
     display: flex;
@@ -156,7 +145,7 @@ main {
     padding: 1em;
     clear: both;
     margin-top: 5em;
-    background-color: #ffffff;
+    background-color: white;
     border-radius: 2em 0 2em 0;
     opacity: 0.85;
 }
