@@ -54,7 +54,7 @@ main {
     clear: both;
     margin-top: 5em;
     background-color: white;
-    border-radius: 2em 0 2em 0;
+    margin-top: 2em;
     opacity: 0.85;
 }
 
@@ -110,46 +110,30 @@ section p{
     margin: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif; 
 }
-nav {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1em;
-    font-weight: bold;
-    margin-top: 1em;
-    text-align: center;
-  
-}
-/* styles regarding ul iinside nav */
-
-
-nav ul {
+#nav {
+    list-style-type: none;
+    margin: 0;
     padding: 0;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-}
-
-/* styles for the li in the ul in the nav */
-nav li {
-    display: inline;
-    float: left;
-    margin-left: 1%;
-    margin-right: 1%;
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-top: .5em;
-    padding-bottom: .5em;
-    white-space: nowrap;
-    border-radius: .7em .7em .7em .7em;
+    margin-top: 2em;
+    overflow: hidden;
     background-color: #C30507;
-}
-
-
-/* styles for the anchor elements inside the li inside nav */
-nav li a {
-    color: #fff;
+  }
+  
+ .navli {
+    float: left;
+  }
+  
+  .navli a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-}
-
-
+  }
+  
+  .navli a:hover {
+    background-color: #fad6ac;
+  }
 
 footer {
     font-size: .7em;
@@ -158,14 +142,7 @@ footer {
     color: #fff;
 }
 
-/* .sectionDiv:target{
 
-    display:block !important;
-    
-    }
-    .sectionDiv:visited{
-        display:none;
-    } */
 .sectionDiv article{
     -webkit-column-count: 2;
     -moz-column-count: 2;
