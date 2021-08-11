@@ -17,35 +17,28 @@ body {
 }
 
 header {
-    margin-top: .1em;
+  
     text-align: center;
-    border-radius: 0%;
-    margin-bottom: 1em;
-    margin: 0px;
+  
   
 }
 header h1{
-    font-family: Papyrus, fantasy;
+    font-family: 'Rouge Script', cursive;;
     font-weight: bolder;
     margin: 0px;
     font-size: 4em;
+    color:#C30507;
 }
 header h6{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     margin: 0px;
     align-items: flex-end;
-    font-size: 1em;
+   font-size: .8em;
 }
 
 
-footer {
-    font-size: 0.7em;
-    text-align: center;
-    clear: both;
-    margin-top: 2em;
-    color: #000;
-}
+
 
 main {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -135,12 +128,7 @@ section p{
     background-color: #fad6ac;
   }
 
-footer {
-    font-size: .7em;
-    text-align: center;
-    margin-top: 2em;
-    color: #fff;
-}
+
 
 
 .sectionDiv article{
@@ -154,6 +142,13 @@ footer {
 }
 .video{
     display: block;
+}
+footer {
+    font-size: 0.7em;
+    text-align: center;
+    clear: both;
+    margin-top: 2em;
+    color: #000;
 }
 
 
